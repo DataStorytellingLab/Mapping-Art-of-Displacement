@@ -9,6 +9,8 @@ This is a no-code workshop, as Kepler.gl and Flowmap.gl work entirely in the bro
 
 ### What are Kepler.gl and FLowmap.gl?
 
+Kepler.gl and Flowmap.gl are modern JavaScript-based open-source spatial and web mapping tools. They are supported by the OpenJS Foundation. Their no-code and robust user interface and interactive features make them an easy entry point into web mapping for beginners. 
+
 ### Preparing Geographic Data for Kepler.gl and Flowmap.gl
 
 ### Uploading Data into Kepler.gl and FLowmap.gl
