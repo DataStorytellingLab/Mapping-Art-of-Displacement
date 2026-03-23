@@ -73,7 +73,7 @@ Your map should look like this minus the colors of the lines, which we'll get in
 
 ![Img_4](/imgs/Img_4.png)
 
-### Changing colors, strokes, basemaps, tooltips, and interactions in Kepler.
+### Changing colors, strokes, basemaps, tooltips, and filters in Kepler.
 
 Kepler gives you many options for map customization - sometimes too many and they can be nested in the layers. So let's focus on a just a couple things. The first is color. As you can see in the screenshot above I was able to adjust the color of the arc based upon the **source** and **target** options. Go ahead and play around with choosing different colors for either this layer or another layer. You may also specify color-coding based upon a field in the data, e.g. assign specific colors to different artists. 
 
@@ -88,6 +88,8 @@ By default Kepler assumes a dark basemap because it is cool and edgy. But you ma
 You've probably noticed that when hovering over a point or arc a tooltip with some data from the dataset appears. Kepler "guesses" what the most useful information might be, but more often than not you will want to have data in the tooltip that is meaningful. To adjust these, click on the icon to the immediate left of the one you used to change the basemaps. This is the **interactions** menu. You should see tooltip and underneath it the fields that are being used the Data.csv file. Go ahead and delete ones you might not want. Click anywhere in the box and you will see a drop down menu with all the fields from the data set. Add as you please, and you will see that information populate in the tooltip, as in the screenshot below:
 
 ![Img_6](/imgs/Img_6.png)
+
+The final thing to explore is the icon to the left of interactions, which is the **filter** icon. Here you can add filters to get very specific views or slices of your dataset.
 
 ### Exporting your project as a fully functioning single HTML file.
 
