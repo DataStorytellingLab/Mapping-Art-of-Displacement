@@ -3,7 +3,7 @@ Instructions for mapping the Amplification Project and using Kepler.gl and Flowm
 
 ### About
 
-This is a no-code workshop, as Kepler.gl and Flowmap.gl work entirely in the browser. All you need is an internet connection and computer. No special equipment or programs or installations needed.
+This is a no-code workshop, as Kepler.gl and Flowmap.gl work entirely in the browser. All you need is an internet connection and computer. No special equipment or programs or installations needed. You don't event to make an account.
 
 ### Amplification Project Data
 
@@ -35,7 +35,14 @@ Once you have taken a minute to explore Kepler and Flowmap (and Deck if interest
 
 ### Preparing Geographic Data for Kepler.gl and Flowmap.gl
 
-Text
+For Kepler and Flowmap all we need to get mapping a few columns in a spreadsheet (the csv's in this repo) that have simple point coordinates: latitude and longitude. Let's look at the first column in the Data.csv that has geographic information:
+
+
+
+
+In fact, you can multiple columns with geographic coordinates  
+
+
 
 ### Uploading Data into Kepler.gl
 
