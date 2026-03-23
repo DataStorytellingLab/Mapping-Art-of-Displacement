@@ -55,7 +55,10 @@ Uploading data into Kepler is very straightforward. Follow the below steps:
 
 1. Go to [Kepler.gl](https://kepler.gl/)
 2. Click the "Get Started" blue button. A dialgoue box will open that gives you options for how to add your data.
-3. Because we already have the data here on Github, select the "Load Map Using URL" option at the top put the following link into URL 
+3. Because we already have the data here on Github, select the "Load Map Using URL" option at the top put the below link in the white field with "URL" in it next to the green fetch button: https://raw.githubusercontent.com/DataStorytellingLab/Mapping-Art-of-Displacement/refs/heads/main/Data.csv
+4. Click the green fetch button, and you should see something like the below: 
+
+![Img_3]()
 
 ### Creating points, lines, and arcs in Kepler. 
 
