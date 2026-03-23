@@ -85,6 +85,8 @@ By default Kepler assumes a dark basemap because it is cool and edgy. But you ma
 
 ![Img_5](/imgs/Img_5.png)
 
+You've probably noticed that when hovering over a point or arc a tooltip with some data from the dataset appears. Kepler "guesses" waht the most useful information might be, but more often than not you will want to have data in the tooltip that is meaningful. 
+
 ### Exporting your project as a fully functioning single HTML file.
 
 Text
