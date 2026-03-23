@@ -83,7 +83,7 @@ Now go to one of the point layers and do the same thing. You will notice that yo
 
 By default Kepler assumes a dark basemap because it is cool and edgy. But you may, of course, change that and be less cool. At the top of the sidebar you will see four icons. Click on the one furthest to the right that looks like a semi-folded map, and you will now see options for different basemaps, as in the screenshot below. 
 
-![Img_5]()
+![Img_5](/imgs/Img_5.png)
 
 ### Exporting your project as a fully functioning single HTML file.
 
