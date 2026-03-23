@@ -39,7 +39,11 @@ For Kepler and Flowmap all we need to get mapping are a few columns in a spreads
 
 ![Img_1](/imgs/Img_1.png)
 
-This shows geographic coordinates associated with an artist's birth city (also note the duplicates but don't worry about them). In addition to these coordinates, there are numerous other columns that have geographic cooordinates. Because they are all named differently, Kepler will treat them as different files and create a layer for them. 
+This shows geographic coordinates associated with an artist's birth city (also note the duplicates but don't worry about them). In addition to these coordinates, there are numerous other columns that have geographic cooordinates. 
+
+!Img_2[]()
+
+Because they are all named differently, Kepler will treat them as different files and create a layer for each of them. 
 
 ### Uploading Data into Kepler.gl
 
