@@ -93,7 +93,7 @@ The final thing to explore is the icon to the left of interactions, which is the
 
 ### Exporting your project as a fully functioning single HTML file.
 
-Text
+There are many more things you can do with Kepler, but the above should give you a good foundation. Now, what if you want to save your map? you have a couple options. 
 
 ### Uploading Data in Flowmmap.gl
 
