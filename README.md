@@ -17,9 +17,9 @@ Data for the Amplification project is contained in the content management system
 
 The files are named according to which program they should be used in (explained more below):
 
-* 1
-* 2
-* 3
+* 1 Data.csv - used for Kepler
+* 2 Flowmap_Places.csv - used for Flowmap
+* 3 Flowmap_Flows.csv - used for Flowmap
 
 ### What are Kepler.gl and Flowmap.gl?
 
