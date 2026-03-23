@@ -37,11 +37,7 @@ Once you have taken a minute to explore Kepler and Flowmap (and Deck if interest
 
 For Kepler and Flowmap all we need to get mapping a few columns in a spreadsheet (the csv's in this repo) that have simple point coordinates: latitude and longitude. Let's look at the first column in the Data.csv that has geographic information:
 
-
-
-
-In fact, you can multiple columns with geographic coordinates  
-
+![Img_1](/imgs/Img_1.png)
 
 
 ### Uploading Data into Kepler.gl
