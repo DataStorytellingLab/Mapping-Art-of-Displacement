@@ -67,7 +67,11 @@ Congratulations, you have made your map!
 
 You should see in the sidebar there are many layers in the map already tha correspond to the data in the csv file. Notice that underneath each layer you will the terms **point** and maybe **line** and **arc** towards the bottom. This is the vector shape Kepler "thinks" your data should be. Most of the time it is correct. To see how this works, click on any layer and you will see options for styling that layer appear, e.g. **Basic**, which tells you what the map mark type is and **fill color** which is what it sounds like. Click on **basic** and select a different shape, say **Hexbin** and then increase the radius. 
 
-The last two layers are the ones that should say they are **arc** and **point**. Nothing is probably showing up so far. Go the layer that says **arc** and click on the grey eye icon to make it visible. You should now see lines that are connecting the birth place of the artist to on the places extracted from the description of the artwork. If you make the **line** layer visible you will also see connecting lines, but they will be flat instea of an arc.  
+The last two layers are the ones that should say they are **arc** and **point**. Nothing is probably showing up so far. Go the layer that says **arc** and click on the grey eye icon to make it visible. You should now see lines that are connecting the birth place of the artist to one the places extracted from the description of the artwork. If you make the **line** layer visible you will also see connecting lines, but they will be flat instea of an arc.  
+
+Your map should look like this minus the colors of the lines, which we'll get into shortly.
+
+![Img_4](/imgs/Img_4.png)
 
 ### Changing colors, strokes, basemaps, tooltips, and interactions in Kepler.
 
