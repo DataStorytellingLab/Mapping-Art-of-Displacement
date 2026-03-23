@@ -13,9 +13,9 @@ Kepler.gl and Flowmap.gl (also known as Flowmap Blue) are modern JavaScript-base
 
 Before we begin, please take a look at these links so you get a better picture of Kepler, Flowmap, as well as, for the curious, the entire Deck.gl ecoysystem.
 
-** [Kepler.gl](https://kepler.gl/)
-** [Flowmap.gl](https://www.flowmap.blue/)
-** [Deck.gl](https://deck.gl/)
+* [Kepler.gl](https://kepler.gl/)
+* [Flowmap.gl](https://www.flowmap.blue/)
+* [Deck.gl](https://deck.gl/)
 
 ### Preparing Geographic Data for Kepler.gl and Flowmap.gl
 
