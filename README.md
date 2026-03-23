@@ -7,6 +7,14 @@ This is a no-code workshop, as Kepler.gl and Flowmap.gl work entirely in the bro
 
 ### Amplification Project Data
 
+#### The Amplification Project
+
+[The Amplification Project](https://www.theamplificationproject.org/) is participatory, community-led digital archive where art and stories of forced migration and refugeehood find sanctuary and amplification. Founded in 2019 by an international group of artists, curators, activists, and an archivist, we create space for voices that are too often silenced, distorted, or reduced to statistics.
+
+#### Project Data
+
+Text
+
 ### What are Kepler.gl and FLowmap.gl?
 
 Kepler.gl and Flowmap.gl (also known as Flowmap Blue) are modern JavaScript-based open-source spatial and web mapping tools. They are supported by the OpenJS Foundation and built upon Deck.gl for high-performance data visualization. Their no-code and robust user interface and interactive features make them an easy entry point into web mapping for beginners. 
