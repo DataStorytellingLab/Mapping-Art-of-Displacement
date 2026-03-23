@@ -77,6 +77,10 @@ Your map should look like this minus the colors of the lines, which we'll get in
 
 Kepler gives you many options for map customization - sometimes too many and they can be nested in the layers. So let's focus on a just a couple things. The first is color. As you can see in the screenshot above I was able to adjust the color of the arc based upon the **source** and **target** options. Go ahead and play around with choosing different colors for either this layer or another layer. You may also specify color-coding based upon a field in the data, e.g. assign specific colors to different artists. 
 
+In the arc layer, underneath the color option, you will see something called **stroke**. This adjusts the thickness of the arc line. Play with the sizing using the slider underneath - it will get ridiculous quickly.
+
+Now go to one of the point layers and do the same thing. You will notice that you can change the color of the points using the **fill color** option, or assign colors based on a field in the dataset. To change the size of the point, adjust the slider under where it says **radius**. 
+
 
 
 ### Exporting your project as a fully functioning single HTML file.
