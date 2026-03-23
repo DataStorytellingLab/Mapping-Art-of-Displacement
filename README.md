@@ -1,4 +1,4 @@
-# Mapping-Art-of-Displacement
+# Mapping the Art of Displacement
 Instructions for mapping the Amplification Project and using Kepler.gl and Flowmap.gl to create lightweight, no-code interactive maps.
 
 ### About
