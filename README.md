@@ -75,7 +75,9 @@ Your map should look like this minus the colors of the lines, which we'll get in
 
 ### Changing colors, strokes, basemaps, tooltips, and interactions in Kepler.
 
-Text
+Kepler gives you many options for map customization - sometimes too many and they can be nested in the layers. So let's focus on a just a couple things. The first is color. As you can see in the screenshot above I was able to adjust the color of the arc based upon the **source** and **target** options. Go ahead and play around with choosing different colors for either this layer or another layer. You may also specify color-coding based upon a field in the data, e.g. assign specific colors to different artists. 
+
+
 
 ### Exporting your project as a fully functioning single HTML file.
 
