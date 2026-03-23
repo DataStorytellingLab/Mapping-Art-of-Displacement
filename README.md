@@ -65,7 +65,9 @@ Congratulations, you have made your map!
 
 ### Points, lines, and arcs in Kepler. 
 
-Text
+You should see in the sidebar there are many layers in the map already tha correspond to the data in the csv file. Notice that underneath each layer you will the terms **point** and maybe **line** and **arc** towards the bottom. This is vector shape Kepler "thinks" your data should be. Most of the time it is correct. To see how this works, click on any layer and you will see options for styling that layer appear, e.g. **Basic**, which tells you what the map mark type is and **fill color** which is what it sounds like. Click on **basic** and select a different shape, say **Hexbin** and then increase the radius. 
+
+
 
 ### Changing colors, strokes, tooltips, and interactions in Kepler.
 
