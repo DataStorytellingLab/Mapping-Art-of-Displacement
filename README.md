@@ -33,7 +33,7 @@ Before we begin, please take a look at these links so you get a better picture o
 
 ### Preparing Geographic Data for Kepler.gl and Flowmap.gl
 
-### Uploading Data into Kepler.gl and FLowmap.gl
+### Uploading Data into Kepler.gl and Flowmap.gl
 
 ### Creating points, lines, and arcs. 
 
