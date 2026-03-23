@@ -35,10 +35,11 @@ Once you have taken a minute to explore Kepler and Flowmap (and Deck if interest
 
 ### Preparing Geographic Data for Kepler.gl and Flowmap.gl
 
-For Kepler and Flowmap all we need to get mapping a few columns in a spreadsheet (the csv's in this repo) that have simple point coordinates: latitude and longitude. Let's look at the first column in the Data.csv that has geographic information:
+For Kepler and Flowmap all we need to get mapping are a few columns in a spreadsheet (the csvs in this repo) that have simple point coordinates: latitude and longitude. Let's look at the first column in the Data.csv that has geographic information:
 
 ![Img_1](/imgs/Img_1.png)
 
+This shows geographic coordinates associated with an artist's birth city (also note the duplicates but don't worry about them). In addition to these coordinates, there are numerous other columns that have geographic cooordinates. Because they are all named differently, Kepler will treat them as different files and create a layer for them. 
 
 ### Uploading Data into Kepler.gl
 
