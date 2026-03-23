@@ -85,7 +85,9 @@ By default Kepler assumes a dark basemap because it is cool and edgy. But you ma
 
 ![Img_5](/imgs/Img_5.png)
 
-You've probably noticed that when hovering over a point or arc a tooltip with some data from the dataset appears. Kepler "guesses" waht the most useful information might be, but more often than not you will want to have data in the tooltip that is meaningful. 
+You've probably noticed that when hovering over a point or arc a tooltip with some data from the dataset appears. Kepler "guesses" what the most useful information might be, but more often than not you will want to have data in the tooltip that is meaningful. To adjust these, click on the icon to the immediate left of the one you used to change the basemaps. This is the **interactions** menu. You should see tooltip and underneath it the fields that are being used the Data.csv file. Go ahead and delete ones you might not want. Click anywhere in the box and you will see a drop down menu with all the fields from the data set. Add as you please, and you will see that information populate in the tooltip, as in the screenshot below:
+
+![Img_6](/imgs/Img_6.png)
 
 ### Exporting your project as a fully functioning single HTML file.
 
