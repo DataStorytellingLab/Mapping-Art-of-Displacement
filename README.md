@@ -13,9 +13,15 @@ This is a no-code workshop, as Kepler.gl and Flowmap.gl work entirely in the bro
 
 #### Project Data
 
-Text
+Data for the Amplification project is contained in the content management system used for the archive. The three csv files in this repository are pre-prepared datasets that contain information about the artowrks in the archive and geographic data (lat-long coordinates) associated with artists, locations pulled from artwork descriptions, and fields used for maps on the Amplification Project site. 
 
-### What are Kepler.gl and FLowmap.gl?
+The files are named according to which program they should be used in (explained more below):
+
+* 1
+* 2
+* 3
+
+### What are Kepler.gl and Flowmap.gl?
 
 Kepler.gl and Flowmap.gl (also known as Flowmap Blue) are modern JavaScript-based open-source spatial and web mapping tools. They are supported by the OpenJS Foundation and built upon Deck.gl for high-performance data visualization. Their no-code and robust user interface and interactive features make them an easy entry point into web mapping for beginners. 
 
