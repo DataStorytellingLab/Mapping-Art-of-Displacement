@@ -114,7 +114,14 @@ The final export option, **Share Map URL** requires either a Carto or Dropbox ac
 
 Now let's explore how to make a map using Flowmap. Becaue Flowmap is meant for visualizing connections and movement, the data has to be prepared in a more specific way than Kepler. You'll see that we have two CSV files already prepared: **Flowmap_Places** and **Flowmap_Flows**. You can think of these as similar to sources and targets. **Flowmap_Places** defines the source, with an id, name, and coordinates. The **Flowmap_Flows** creates the connections between the places.
 
-To get a map going in Flowmap, follow the below instructions
+To get a map going in Flowmap, follow the below instructions:
+
+* Go to [Flowmap](https://www.flowmap.blue/).
+* Click on "How to Make a Flowmap" in the menu bar at the top.
+* Scroll down past the intstructions on creating a google sheet and click on the link that says "In browser FLow Map" near the bottom of the page.
+* You will see the below screen:
+
+  
 
 ### Adjusting shapes, filtering locations, and adding animations.
 
