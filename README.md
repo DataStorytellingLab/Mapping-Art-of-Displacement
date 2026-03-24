@@ -91,15 +91,24 @@ You've probably noticed that when hovering over a point or arc a tooltip with so
 
 The final thing to explore is the icon to the left of interactions, which is the **filter** icon. You can add filters to get very specific views or slices of your dataset.
 
+There are many more things you can do with Kepler, but the above should give you a good foundation. 
+
 ### Exporting your map.
 
-There are many more things you can do with Kepler, but the above should give you a good foundation. Now, what if you want to save your map? you have a couple options. At the very top of the sidebar menu you will see a **download** icon (the down-pointing arrow). Click on that and you be presented with four options: Export Image, Export Data, Export Map, and Share Map URL.
+Now, what if you want to save your map? you have a couple options. At the very top of the sidebar menu you will see a **download** icon (the down-pointing arrow). Click on that and you be presented with four options: Export Image, Export Data, Export Map, and Share Map URL.
 
-Export image and export data are quite straighforward, so I'd like to focus on the latter two: **Export Map** and **Share Map URL**. 
+Export image and export data are quite straighforward, so I'd like to focus on: **Export Map**.
 
-**Export map** allows you to export the entire map file as a single HTML page that retains all of the interactivity.  
+**Export map** allows you to export the entire map file as a single HTML page that retains all of the interactivity. To save it do the following:
+
+* Under "Map Format" select HTML (if not already selected by default).
+* Skip Mapbox access token.
+* Select "Map Mode." The option on the left will give you a reader's view, meaning that the side bar used to edit the map does not appear. If you want to keep editing capabilities choose the option on the right, or the editor's view.
+* Click the green "Export" button. It should download to your computer. Open it up, and the fully-functioning map should appear in your browser.   
 
 ![Img_7](/imgs/Img_7.png)
+
+The final export option, **Share Map URL** requires either a Carto or Dropbox account to generate a shareable URL. 
 
 ### Uploading Data in Flowmmap.gl
 
