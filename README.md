@@ -125,7 +125,7 @@ To get a map going in Flowmap, follow the below instructions:
 
 * The input box on the left is where the **Flowmap_Places** data goes, while the input box on the right is where the **Flowmap_Flows** go. To add the data into the boxes, copy the data from the two csv files. It's best to copy them from the raw extensions to avoid any formatting that Github might add:
 * * **Flowmap_Places**:
-  * ****Flomap_Flows**: 
+  * ****Flomap_Flows**:https://raw.githubusercontent.com/DataStorytellingLab/Mapping-Art-of-Displacement/refs/heads/main/Flowmap_Flows.csv
 
 
 ### Adjusting shapes, filtering locations, and adding animations.
