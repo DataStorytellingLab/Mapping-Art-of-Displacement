@@ -123,6 +123,11 @@ To get a map going in Flowmap, follow the below instructions:
 
 ![Img_8](/imgs/Img_8.png)
 
+* The input box on the left is where the **Flowmap_Places** data goes, while the input box on the right is where the **Flowmap_Flows** go. To add the data into the boxes, copy the data from the two csv files. It's best to copy them from the raw extensions to avoid any formatting that Github might add:
+* * **Flowmap_Places**:
+  * ****Flomap_Flows**: 
+
+
 ### Adjusting shapes, filtering locations, and adding animations.
 
 Text
