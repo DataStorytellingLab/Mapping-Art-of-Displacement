@@ -110,9 +110,9 @@ Export image and export data are quite straighforward, so I'd like to focus on: 
 
 The final export option, **Share Map URL** requires either a Carto or Dropbox account to generate a shareable URL. 
 
-### Uploading Data in Flowmmap.gl
+### Uploading Data in Flowmap.gl
 
-Now let's explore how to make a map using Flowmap. Becaue Flowmap is meant for visualizing connections and movement, the data has to be prepared in a more specific way than Kepler. You'll see that we have two CSV files already prepared: **Flowmap_Places** and **Flowmap_Flows**. You can think of these as similar to sources and targets. **Flowmap_Places** defines the source, with an id, name, and coordinates. The **Flowmap_Flows** creates the connections between the places.
+Now let's explore how to make a map using Flowmap. Becaue Flowmap is meant for visualizing connections and movement, the data has to be prepared in a more specific way than Kepler. You'll see that we have two CSV files already prepared: **Flowmap_Places** and **Flowmap_Flows**. You can think of these as similar to sources and targets. **Flowmap_Places** defines the source, with an id, name, and coordinates. **Flowmap_Flows** creates the connections between the places.
 
 To get a map going in Flowmap, follow the below instructions:
 
