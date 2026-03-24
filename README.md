@@ -121,7 +121,7 @@ To get a map going in Flowmap, follow the below instructions:
 * Scroll down past the intstructions on creating a google sheet and click on the link that says "In browser FLow Map" near the bottom of the page.
 * You will see the below screen:
 
-  
+![Img_8](/imgs/Img_8.png)
 
 ### Adjusting shapes, filtering locations, and adding animations.
 
