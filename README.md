@@ -22,9 +22,9 @@ The files are named according to which program they should be used in (explained
 * 3 Flowmap_Flows.csv - used for Flowmap
 
 
-### What are Kepler.gl and Flowmap.gl (or Flowmap Blue)?
+### What are Kepler.gl and Flowmap.gl?
 
-Kepler.gl and Flowmap.gl (also known as Flowmap Blue) are modern JavaScript-based open-source spatial and web mapping tools. They are supported by the OpenJS Foundation and built upon Deck.gl for high-performance data visualization. Their no-code and robust user interface and interactive features make them an easy entry point into web mapping for beginners. 
+Kepler.gl and Flowmap.gl (also known as Flowmap Blue) are modern JavaScript-based open-source spatial and web mapping tools. They are supported by the OpenJS Foundation and built upon Deck.gl for high-performance data visualization. Their no-code and robust user interface and interactive features (including 3D support) make them an easy entry point into web mapping for beginners. 
 
 Before we begin uploading data, please take a look at these links and explore some of the examples so you get a better picture of Kepler, Flowmap, as well as, for the curious, the entire Deck.gl ecoysystem. 
 
@@ -33,6 +33,7 @@ Before we begin uploading data, please take a look at these links and explore so
 * [Deck.gl](https://deck.gl/)
 
 Once you have taken a minute to explore Kepler and Flowmap (and Deck if interested), we'll move to a quick dive into the data required for creating the maps and what ours looks like.
+
 
 ### Preparing Geographic Data for Kepler.gl and Flowmap.gl
 
@@ -51,7 +52,7 @@ Because the columns are all named differently, Kepler will treat them as differe
 
 
 
-### Uploading Data into Kepler.gl
+### Uploading Data into Kepler
 
 
 Uploading data into Kepler is very straightforward. Follow the below steps:
@@ -121,7 +122,7 @@ The final export option, **Share Map URL** requires either a Carto or Dropbox ac
 
 
 
-### Uploading Data in Flowmap.gl
+### Uploading Data in Flowmap
 
 Now let's explore how to make a map using Flowmap. Becaue Flowmap is meant for visualizing connections and movement, the data has to be prepared in a more specific way than Kepler. You'll see that we have two CSV files already prepared: **Flowmap_Places** and **Flowmap_Flows**. You can think of these as similar to sources and targets. **Flowmap_Places** defines the source, with an id, name, and coordinates. **Flowmap_Flows** creates the connections between the places.
 
@@ -138,6 +139,8 @@ To get a map going in Flowmap, follow the below instructions:
   * **Flowmap_Places**: https://raw.githubusercontent.com/DataStorytellingLab/Mapping-Art-of-Displacement/refs/heads/main/Flowmap_Places.csv
   * **Flomap_Flows**: https://raw.githubusercontent.com/DataStorytellingLab/Mapping-Art-of-Displacement/refs/heads/main/Flowmap_Flows.csv
 
+***NB: The "count" in the Flowmap_Flows.csv file is randomly generated and for demonstration purposes only!***
+
 The data should like the below:
 
 ![Img_9](/imgs/Img_9.png)
@@ -152,9 +155,9 @@ Click on the "Visualize" buttom on the lower right. And you should see your Flow
 
 In Flowmap you can do a couple things very quickly that take a bit more work in Kepler: filtering your data and adding animations. At the bottom left of the screen you will see a small gear icon link. Click on that to open a menu where you can adjust some of the look and feel of your "flows." To animate your connections, toggle the "Animate flows" on. You will see your connections animated or "flowing." 
 
-In the upper right there is a box to filter your locations. Flowmap automatically parses your data to enable filtering. Go ahead and select one or two locations and see filter down the map. 
+In the upper right there is a box to filter your locations. Flowmap automatically parses your data to enable filtering. Go ahead and select one or two locations and filter down the map. 
 
-Congratluations, you have built your first Flowmap!
+Congratluations, you have built your first animated Flowmap!
 
 ![Img_11](/imgs/Img_11.png)
 
