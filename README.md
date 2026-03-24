@@ -127,7 +127,11 @@ To get a map going in Flowmap, follow the below instructions:
   * **Flowmap_Places**: https://raw.githubusercontent.com/DataStorytellingLab/Mapping-Art-of-Displacement/refs/heads/main/Flowmap_Places.csv
   * ****Flomap_Flows**: https://raw.githubusercontent.com/DataStorytellingLab/Mapping-Art-of-Displacement/refs/heads/main/Flowmap_Flows.csv
 
+The data should like the below:
+
 ![Img_9](/imgs/Img_9.png)
+
+Click on the "Visualize" buttom on the lower right. And you should see your Flowmap as below! 
 
 ![Img_10](/imgs/Img_10.png)
 
