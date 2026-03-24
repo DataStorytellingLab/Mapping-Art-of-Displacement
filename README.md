@@ -75,9 +75,9 @@ Your map should look like this minus the colors of the lines, which we'll get in
 
 ### Changing colors, strokes, basemaps, tooltips, and filters in Kepler.
 
-Kepler gives you many options for map customization - sometimes too many and they can be nested in the layers. So let's focus on a just a couple things. The first is color. As you can see in the screenshot above I was able to adjust the color of the arc based upon the **source** and **target** options. Go ahead and play around with choosing different colors for either this layer or another layer. You may also specify color-coding based upon a field in the data, e.g. assign specific colors to different artists. 
+Kepler gives you many options for map customization - sometimes too many and they can be nested in the layers. So let's focus on just a couple things. The first is color. As you can see in the screenshot above I was able to adjust the color of the arc based upon the **source** and **target** options. Go ahead and play around with choosing different colors for either this layer or another layer. You may also specify color-coding based upon a field in the data, e.g. assign specific colors to different artists. 
 
-In the arc layer, underneath the color option, you will see something called **stroke**. This adjusts the thickness of the arc line. Play with the sizing using the slider underneath - it will get ridiculous quickly.
+In the arc layer, underneath the color option, you will see something called **stroke**. This adjusts the thickness of the arc line. Play with the sizing using the slider underneath.
 
 Now go to one of the point layers and do the same thing. You will notice that you can change the color of the points using the **fill color** option, or assign colors based on a field in the dataset. To change the size of the point, adjust the slider under where it says **radius**. 
 
@@ -89,11 +89,17 @@ You've probably noticed that when hovering over a point or arc a tooltip with so
 
 ![Img_6](/imgs/Img_6.png)
 
-The final thing to explore is the icon to the left of interactions, which is the **filter** icon. Here you can add filters to get very specific views or slices of your dataset.
+The final thing to explore is the icon to the left of interactions, which is the **filter** icon. You can add filters to get very specific views or slices of your dataset.
 
-### Exporting your project as a fully functioning single HTML file.
+### Exporting your map.
 
-There are many more things you can do with Kepler, but the above should give you a good foundation. Now, what if you want to save your map? you have a couple options. 
+There are many more things you can do with Kepler, but the above should give you a good foundation. Now, what if you want to save your map? you have a couple options. At the very top of the sidebar menu you will see a **download** icon (the down-pointing arrow). Click on that and you be presented with four options: Export Image, Export Data, Export Map, and Share Map URL.
+
+Export image and export data are quite straighforward, so I'd like to focus on the latter two: **Export Map** and **Share Map URL**. 
+
+**Export map** allows you to export the entire map file as a single HTML page that retains all of the interactivity.  
+
+![Img_7](/imgs/Img_7.png)
 
 ### Uploading Data in Flowmmap.gl
 
