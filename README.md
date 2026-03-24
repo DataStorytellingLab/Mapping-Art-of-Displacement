@@ -1,15 +1,15 @@
 # Mapping the Art of Displacement
-Instructions for mapping the Amplification Project and using Kepler.gl and Flowmap.gl to create lightweight, no-code interactive maps.
 
-### About
+### About the Workshop
 
-This is a no-code workshop, as Kepler.gl and Flowmap.gl work entirely in the browser. All you need is an internet connection and computer. No special equipment or programs or installations needed. You don't event to make an account.
+To explore the themes of place, movement, and migration underpinning The Amplification Project: Digital Archive for Forced Migration, Contemporary Art, and Action, this workshop will introduce students to Flowmap.gl and Kepler.gl, two web-based GIS tools that create dynamic, interactive maps.
+Instructions for mapping the Amplification Project and using Kepler.gl and Flowmap.gl to create lightweight interactive maps. This is a ***no-code*** workshop, as Kepler.gl and Flowmap.gl work entirely in the browser. All you need is an internet connection and computer. No special equipment or programs or installations needed. You don't event to make an account.
 
-### Amplification Project Data
 
 #### The Amplification Project
 
 [The Amplification Project](https://www.theamplificationproject.org/) is participatory, community-led digital archive where art and stories of forced migration and refugeehood find sanctuary and amplification. Founded in 2019 by an international group of artists, curators, activists, and an archivist, we create space for voices that are too often silenced, distorted, or reduced to statistics.
+
 
 #### Project Data
 
@@ -21,7 +21,8 @@ The files are named according to which program they should be used in (explained
 * 2 Flowmap_Places.csv - used for Flowmap
 * 3 Flowmap_Flows.csv - used for Flowmap
 
-### What are Kepler.gl and Flowmap.gl?
+
+### What are Kepler.gl and Flowmap.gl (or Flowmap Blue)?
 
 Kepler.gl and Flowmap.gl (also known as Flowmap Blue) are modern JavaScript-based open-source spatial and web mapping tools. They are supported by the OpenJS Foundation and built upon Deck.gl for high-performance data visualization. Their no-code and robust user interface and interactive features make them an easy entry point into web mapping for beginners. 
 
@@ -49,7 +50,9 @@ This shows geographic coordinates associated with an artist's birth city (also n
 Because the columns are all named differently, Kepler will treat them as different files and create a layer for each of them. 
 
 
+
 ### Uploading Data into Kepler.gl
+
 
 Uploading data into Kepler is very straightforward. Follow the below steps:
 
@@ -63,6 +66,8 @@ Uploading data into Kepler is very straightforward. Follow the below steps:
 
 Congratulations, you have made your map! 
 
+
+
 ### Points, lines, and arcs in Kepler. 
 
 You should see in the sidebar there are many layers in the map already tha correspond to the data in the csv file. Notice that underneath each layer you will the terms **point** and maybe **line** and **arc** towards the bottom. This is the vector shape Kepler "thinks" your data should be. Most of the time it is correct. To see how this works, click on any layer and you will see options for styling that layer appear, e.g. **Basic**, which tells you what the map mark type is and **fill color** which is what it sounds like. Click on **basic** and select a different shape, say **Hexbin** and then increase the radius. 
@@ -72,6 +77,8 @@ The last two layers are the ones that should say they are **arc** and **point**.
 Your map should look like this minus the colors of the lines, which we'll get into shortly.
 
 ![Img_4](/imgs/Img_4.png)
+
+
 
 ### Changing colors, strokes, basemaps, tooltips, and filters in Kepler.
 
@@ -93,7 +100,9 @@ The final thing to explore is the icon to the left of interactions, which is the
 
 There are many more things you can do with Kepler, but the above should give you a good foundation. 
 
-### Exporting your map.
+
+
+### Exporting your Map.
 
 Now, what if you want to save your map? you have a couple options. At the very top of the sidebar menu you will see a **download** icon (the down-pointing arrow). Click on that and you be presented with four options: Export Image, Export Data, Export Map, and Share Map URL.
 
@@ -110,6 +119,8 @@ Export image and export data are quite straighforward, so I'd like to focus on: 
 
 The final export option, **Share Map URL** requires either a Carto or Dropbox account to generate a shareable URL. 
 
+
+
 ### Uploading Data in Flowmap.gl
 
 Now let's explore how to make a map using Flowmap. Becaue Flowmap is meant for visualizing connections and movement, the data has to be prepared in a more specific way than Kepler. You'll see that we have two CSV files already prepared: **Flowmap_Places** and **Flowmap_Flows**. You can think of these as similar to sources and targets. **Flowmap_Places** defines the source, with an id, name, and coordinates. **Flowmap_Flows** creates the connections between the places.
@@ -125,7 +136,7 @@ To get a map going in Flowmap, follow the below instructions:
 
 * The input box on the left is where the **Flowmap_Places** data goes, while the input box on the right is where the **Flowmap_Flows** go. To add the data into the boxes, copy the data from the two csv files. It's best to copy them from the raw extensions to avoid any formatting that Github might add:
   * **Flowmap_Places**: https://raw.githubusercontent.com/DataStorytellingLab/Mapping-Art-of-Displacement/refs/heads/main/Flowmap_Places.csv
-  * ****Flomap_Flows**: https://raw.githubusercontent.com/DataStorytellingLab/Mapping-Art-of-Displacement/refs/heads/main/Flowmap_Flows.csv
+  * **Flomap_Flows**: https://raw.githubusercontent.com/DataStorytellingLab/Mapping-Art-of-Displacement/refs/heads/main/Flowmap_Flows.csv
 
 The data should like the below:
 
@@ -135,9 +146,20 @@ Click on the "Visualize" buttom on the lower right. And you should see your Flow
 
 ![Img_10](/imgs/Img_10.png)
 
-### Adjusting shapes, filtering locations, and adding animations.
+
+
+### Adding animations and filtering locations.
+
+In Flowmap you can do a couple things very quickly that take a bit more work in Kepler: filtering your data and adding animations. At the bottom left of the screen you will see a small gear icon link. Click on that to open a menu where you can adjust some of the look and feel of your "flows." To animate your connections, toggle the "Animate flows" on. You will see your connections animated or "flowing." 
+
+In the upper right there is a box to filter your locations. Flowmap automatically parses your data to enable filtering. Go ahead and select one or two locations and see filter down the map. 
+
+Congratluations, you have built your first Flowmap!
 
 ![Img_11](/imgs/Img_11.png)
 
-Text
 
+
+### Conclusion
+
+These are just a few things you can do with Kepler and Flowmap without ever having to code and right in the convenience of your browser. While they have their limitations, they are great introductory platforms for those wanting to do a bit of mapping as well some low-key exploratory data analysis. 
