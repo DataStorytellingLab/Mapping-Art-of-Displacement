@@ -7,12 +7,12 @@ To explore the themes of place, movement, and migration underpinning ***The Ampl
 
 #### The Amplification Project
 
-[The Amplification Project](https://www.theamplificationproject.org/) is participatory, community-led digital archive where art and stories of forced migration and refugeehood find sanctuary and amplification. Founded in 2019 by an international group of artists, curators, activists, and an archivist, we create space for voices that are too often silenced, distorted, or reduced to statistics.
+[The Amplification Project](https://www.theamplificationproject.org/) is a participatory, community-led digital archive where art and stories of forced migration and refugeehood find sanctuary and amplification. Founded in 2019 by an international group of artists, curators, activists, and an archivist, we create space for voices that are too often silenced, distorted, or reduced to statistics.
 
 
 #### Project Data
 
-Data for the Amplification project is contained in the content management system used for the archive. Three csv files in this repository are pre-prepared datasets that contain information about the artowrks in the archive and geographic data (lat-long coordinates) associated with artists, locations pulled from artwork descriptions, and fields used for maps on the Amplification Project site. 
+Data for The Amplification Project is contained in the content management system used for the archive. Three CSV files in this repository are pre-prepared datasets that contain information about the artworks in the archive and geographic data (lat-long coordinates) associated with artists,locations pulled from artwork descriptions, and fields used for maps on the Amplification Project site. 
 
 The files are named according to which program they should be used in (explained more below):
 
@@ -25,7 +25,7 @@ The files are named according to which program they should be used in (explained
 
 Kepler.gl and Flowmap.gl (also known as Flowmap Blue) are modern JavaScript-based open-source spatial and web mapping tools. They are supported by the OpenJS Foundation and built upon Deck.gl for high-performance data visualization. Their no-code and robust user interfaces and interactive features (including support for 3D graphics) make them an easy entry point into web mapping for beginners. 
 
-Before we begin uploading data, please take a look at these links and explore some of the examples so you get a better picture of Kepler, Flowmap, as well as, for the curious, the entire Deck.gl ecoysystem. 
+Before we begin uploading data, please take a look at these links and explore some of the examples so you get a better picture of Kepler, Flowmap, as well as, for the curious, the entire Deck.gl ecosystem. 
 
 * [Kepler.gl](https://kepler.gl/)
 * [Flowmap.gl](https://www.flowmap.blue/)
@@ -41,7 +41,7 @@ For Kepler and Flowmap all we need to get us mapping are a few columns in a spre
 ![Img_1](/imgs/Img_1.png)
 
 
-This details shows geographic coordinates associated with an artist's birth city (also note the duplicates but don't worry about them). In addition to these coordinates, there are numerous other columns that have geographic cooordinates, such as the one below that has place names and geographic coordinates extracted from the artwork description. 
+These details show geographic coordinates associated with an artist's birth city (also note the duplicates, but don't worry about them). In addition to these coordinates, there are numerous other columns that have geographic cooordinates, such as the one below that has place names and geographic coordinates extracted from the artwork description. 
 
 
 ![Img_2](/imgs/Img_2.png)
@@ -72,7 +72,7 @@ Congratulations, you have made your map!
 
 What you have so far is a pretty basic map with a number of points. Look at the sidebar and you should see that there are many layers in the map already that correspond to the data in the CSV file. Now notice that underneath each layer you will see the terms **point**, and maybe **line** and **arc** in the layers towards the bottom. This is the vector shape Kepler "thinks" your data should be. Most of the time it is correct. But there are many different shapes you can place on the map, though depending on what kind of data you have. To see how this works, click on any layer and you will see options for styling that layer appear, e.g. **Basic**, which tells you what the map mark type is; **fill color** which is what it sounds like; and adjustments like **opacity**. Click on **basic** and select a different shape, say **Hexbin** and then increase the **radius**. See what happens. 
 
-Now scroll down in the sidebar until you see the last two layers, which should say they have the type **arc** and **line** instead of point. Nothing is probably showing up so far. Go the layer that says **arc** and click on the grey eye icon to make it visible. You should now see lines that are connecting the birth place of the artist to one the places extracted from the description of the artwork. If you make the **line** layer visible you will also see connecting lines, but they will be flat instea of an arc.  
+Now scroll down in the sidebar until you see the last two layers, which should say they have the type **arc** and **line** instead of point. Nothing is probably showing up so far. Go to the layer that says **arc** and click on the grey eye icon to make it visible. You should now see lines that are connecting the birthplace of the artist to one of the places extracted from the description of the artwork. If you make the **line** layer visible you will also see connecting lines, but they will be flat instea of an arc.  
 
 Your map should look like this minus the colors of the lines, which we'll get into shortly.
 
@@ -112,7 +112,7 @@ Export image and export data are quite straighforward and what they sound like, 
 
 * Under "Map Format" select HTML (if not already selected by default).
 * Skip Mapbox access token.
-* Select "Map Mode." The option on the left will give you a reader's view, meaning that the side bar used to edit the map does not appear. If you want to keep editing capabilities choose the option on the right, or the editor's view.
+* Select "Map Mode." The option on the left will give you a reader's view, meaning that the sidebar used to edit the map does not appear. If you want to keep editing capabilities choose the option on the right, or the editor's view.
 * Click the green "Export" button. It should download to your computer. Open it up, and the fully-functioning map should appear in your browser.   
 
 ![Img_7](/imgs/Img_7.png)
@@ -123,14 +123,14 @@ The final export option, **Share Map URL** requires either a Carto or Dropbox ac
 
 ### Uploading Data in Flowmap
 
-Now let's explore how to make a map using Flowmap. Becaue Flowmap is meant for visualizing connections and movement, the data has to be prepared in a more specific way than Kepler. You'll see that we have two CSV files already prepared: **Flowmap_Places.csv** and **Flowmap_Flows.csv**. You can think of these as similar to sources and targets. **Flowmap_Places** defines the source, with an id, name, and coordinates. **Flowmap_Flows** creates the connections between the places.
+Now let's explore how to make a map using Flowmap. Because Flowmap is meant for visualizing connections and movement, the data has to be prepared in a more specific way than Kepler. You'll see that we have two CSV files already prepared: **Flowmap_Places.csv** and **Flowmap_Flows.csv**. You can think of these as similar to sources and targets. **Flowmap_Places** defines the source, with an id, name, and coordinates. **Flowmap_Flows** creates the connections between the places.
 
 To get a map going in Flowmap, follow the below instructions:
 
 * Go to [Flowmap](https://www.flowmap.blue/).
 * Click on "How to Make a Flowmap" in the menu bar at the top.
-* Scroll down past the intstructions on creating a google sheet and click on the link that says "In browser FLow Map" near the bottom of the page.
-* You will see the below screen:
+* Scroll down past the instructions on creating a Google sheet and click on the link that says "In browser Flow Map" near the bottom of the page.
+* You will see the screen below:
 
 ![Img_8](/imgs/Img_8.png)
 
@@ -140,7 +140,7 @@ To get a map going in Flowmap, follow the below instructions:
 
 ***NB: The "count" in the Flowmap_Flows.csv file is randomly generated and for demonstration purposes only!***
 
-The data should like the below:
+The data should be like the below:
 
 ![Img_9](/imgs/Img_9.png)
 
