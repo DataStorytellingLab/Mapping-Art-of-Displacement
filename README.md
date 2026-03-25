@@ -3,7 +3,7 @@
 ### About the Workshop
 
 To explore the themes of place, movement, and migration underpinning The Amplification Project: Digital Archive for Forced Migration, Contemporary Art, and Action, this workshop will introduce students to Flowmap.gl and Kepler.gl, two web-based GIS tools that create dynamic, interactive maps.
-Instructions for mapping the Amplification Project and using Kepler.gl and Flowmap.gl to create lightweight interactive maps. This is a ***no-code*** workshop, as Kepler.gl and Flowmap.gl work entirely in the browser. All you need is an internet connection and computer. No special equipment or programs or installations needed. You don't event to make an account.
+Instructions for mapping the Amplification Project and using Kepler.gl and Flowmap.gl to create lightweight interactive maps. This is a ***no-code*** workshop, as Kepler.gl and Flowmap.gl work entirely in the browser. All you need is an internet connection and computer. No special equipment or programs or installations needed. You don't even to make an account.
 
 
 #### The Amplification Project
